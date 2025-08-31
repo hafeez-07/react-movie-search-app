@@ -43,5 +43,3 @@ Save favorites
 
 👨‍💻 Author
 Made with ❤️ by Hafeez
-
-Ask ChatGPT
