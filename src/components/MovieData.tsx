@@ -23,7 +23,7 @@ const MovieData = ({ movieName }: movieProp) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
 
-  const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
+  const apiKey = import.meta.env.VITE_MOVIE_API_KEY;
 
   useEffect(() => {
     setLoading(true);
