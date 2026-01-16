@@ -3,6 +3,12 @@
 A simple React + TypeScript + Tailwind CSS project built with Vite.  
 This app allows users to search for movies and displays movie details such as title, year, type, and poster.
 
+## 🔗 Live Demo
+
+👉 **[View Live App](https://react-movie-search-app-mu.vercel.app)**
+
+
+
 ## 🚀 Features
 
 - 🔍 Search movies by name
@@ -22,7 +28,7 @@ This app allows users to search for movies and displays movie details such as ti
 
 ### 1. Clone the repo
 
-git clone https://github.com/hafeez-07/movie-search-app.git
+git clone https://github.com/hafeez-07/react-movie-search-app.git
 cd movie-search-app
 
 2. Install dependencies
