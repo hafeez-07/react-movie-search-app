@@ -3,7 +3,7 @@ import UserInput from "./components/UserInput";
 
 function App() {
   return (
-    <div className="App">
+    <div className="">
       <UserInput />
     </div>
   );
