@@ -86,7 +86,7 @@ const MovieData = ({ movieName, hasSearched }: Props) => {
           xl:grid-cols-4  gap-5 items-center w-full 
           sm:grid-cols-2 "
           >
-            {movieData.Search.map((movie) => (
+            {sortedMovies.map((movie) => (
               <div
                 className=" text-white  xl:aspect-[3/6] lg:aspect-[3/4] md:aspect-[2/3] sm:aspect-[2/2] flex flex-col gap-3 bg-black/30  py-3 px-2 hover:shadow-lg shadow-slate-400 transition duration-300 "
                 key={movie.imdbID}
