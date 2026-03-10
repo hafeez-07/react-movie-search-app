@@ -98,6 +98,8 @@ npm run dev
 http://localhost:5173
 
 ## 📂 Project Structure
+
+```
 src
 │
 ├── components
@@ -111,6 +113,7 @@ src
 │
 ├── App.tsx
 └── main.tsx
+```
 
 ### 🧠 Interesting Implementation Details
 
@@ -122,11 +125,13 @@ Poster = "N/A"
 
 Broken poster URLs
 
+```
 onError={(e) => {
 const img = e.currentTarget;
 img.onerror = null;
 img.src = default_poster;
 }}
+```
 Skeleton Loading UI
 
 While API data loads, skeleton cards appear to improve perceived performance.
