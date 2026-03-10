@@ -75,27 +75,28 @@ Works smoothly across:
 git clone https://github.com/hafeez-07/react-movie-search-app.git
 cd react-movie-search-app
 
-## Install Dependencies
+### 2 Install Dependencies
 
 npm install
 npm install axios
 
-## Add Environment Variable
+### 3 Add Environment Variable
 
 Create a .env file in the root folder:
 
 VITE_MOVIE_API_KEY=your_omdb_api_key
 
-# Get your API key from:
+#### Get your API key from:
 
 👉 https://www.omdbapi.com/apikey.aspx
 
 4️⃣ Run the App
 npm run dev
 
-App will run at:
+### App will run at:
 
 http://localhost:5173
+
 📂 Project Structure
 src
 │
@@ -110,7 +111,9 @@ src
 │
 ├── App.tsx
 └── main.tsx
-🧠 Interesting Implementation Details
+
+### 🧠 Interesting Implementation Details
+
 Poster Fallback Logic
 
 Handles both:
@@ -132,7 +135,7 @@ Gradient Poster Hover Effect
 
 A cinematic gradient overlay appears when hovering posters, giving the UI more depth and polish.
 
-🚀 Future Improvements
+### 🚀 Future Improvements
 
 🔎 Pagination for large search results
 
@@ -144,9 +147,10 @@ A cinematic gradient overlay appears when hovering posters, giving the UI more d
 
 🎥 Trailer integration
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Made with ❤️ by Hafeez
 
-GitHub:
+### GitHub:
+
 https://github.com/hafeez-07
