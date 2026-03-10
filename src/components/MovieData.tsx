@@ -42,7 +42,6 @@ const MovieData = ({ movieName, hasSearched }: Props) => {
           setError("");
           setMovieData(response.data);
           localStorage.setItem("lastMovie", movieName);
-          console.log(response.data);
         } else {
           setMovieData(null);
           setError(response.data.Error);
